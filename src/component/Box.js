@@ -7,12 +7,14 @@ import './Box.css'
 				value: props.value
 			}
 		}
-		clickEventHandler = this.handleClick.bind(this);
+    clickEventHandler = this.handleClick.bind(this);
+    
 		render(){
 			return(
 					<div className="Box" onClick={this.clickEventHandler}> {this.state.value}</div>
 				)
-		}
+    }
+    
 		handleClick(){
 			if(!this.state.value){
 				this.setState(({

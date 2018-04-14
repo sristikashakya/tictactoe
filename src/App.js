@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import './component/Board'
+import Board  from './component/Board';
+
 class App extends Component {
   render() {
     return (
